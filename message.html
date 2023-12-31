@@ -7,10 +7,19 @@
         <link rel="stylesheet" href="styles.css">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="script.js"></script>
+        <script defer>
+            document.addEventListener('DOMContentLoaded', () => {document.querySelector('.msg').innerHTML = slides[0];});
+        </script>
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
     </head>
     <body>
         <div class="content-wrapper">
-            hi srushti. you can close the inspector now.
+            <div class="heading">hi srushti. make sure there's no one around pls.</div>
+            <div class="msg-wrapper"><div class="msg"></div></div>
+            <div class="change-slide">
+                <button class="back page-change"><</button>
+                <button class="fwd page-change">></button>
+            </div>
         </div>
     </body>
 </html>
