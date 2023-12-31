@@ -9,3 +9,8 @@ body {
     padding: 0;
     border: none;
 }
+
+.content-wrapper {
+    background-color: #f3ccf3;
+    color: black;
+}
